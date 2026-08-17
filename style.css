@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 5px;
+    width: 130px;
+    font-size: 16px;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+fieldset {
+    min-height: 120px;
+    margin-top: 10px;
+}
+
+.number-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 8px 0;
+}
+
+.number {
+    width: 60px;
+}
+
+.even {
+    color: rgb(0, 23, 128);
+    font-weight: bold;
+    width: 50px;
+}
+
+.odd {
+    color: rgb(255, 0, 242);
+    font-weight: bold;
+    width: 50px;
+}
+
+.actions {
+    margin-top: 10px;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
